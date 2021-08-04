@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/stylex.css">
+	<title>Formulair</title>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="contact-form">
+			<div class="input-fields">
+
+				<input type="text" id="nom" class="input" placeholder="Nom">
+				<input type="text" id="pre" class="input" placeholder="Prénome">
+				<input type="text" id="adr" class="input" placeholder="Adresse">
+				<input type="text" id="tel" class="input" placeholder="Telephone">
+				<input type="email" id="eml" class="input" placeholder="Email">
+
+			</div>
+			<div class="msg">
+				<button class="btn" onclick="om()">Ajouté</button>
+				<button class="butn" onclick="window.print()" id="bt">Imprimer</button>
+				<p id="space"></p>
+			</div>
+		</div>
+		<script src="js/formJs.js"></script>
+</body>
+
+</html>
