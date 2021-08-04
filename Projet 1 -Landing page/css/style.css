@@ -1,0 +1,76 @@
+
+*{
+
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+
+}
+
+body{
+
+	background-image: url("../img/backGold.jpg"); no-repeat top center;
+	background-size: cover;
+    height: 100vh;
+}
+
+
+.post{
+	position: relative;
+    bottom: 130px;
+    left: 8px;
+
+}
+
+.logo-rlx img{
+    width: 286px;
+    height: 283px;
+    position: relative;
+    top: -57px;
+    left: 547px;
+}
+
+.disc p{
+    width: 50%;
+    color: white;
+    font-size: 35px;
+
+}
+
+.disc b{
+	color: #EBBE2F;
+}
+
+.prod img{
+
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    width: 620px;
+    height: 550px;
+}
+
+.foot span{
+    color: white;
+    font-size: 30px;
+}
+.foot a{
+	position: relative;
+    bottom: 45px;
+    left: 330px;
+	font-size: 30px;
+	color: #EBBE2F;
+	
+}
+
+button{
+    background-color: #EBBE2F;
+    width: 155px;
+    height: 52px;
+	border-radius: 30px;
+	border: #EBBE2F;
+	cursor: pointer;
+    position: relative;
+	left: 120px;
+	text-transform: uppercase
+}
